@@ -48,7 +48,6 @@ class Customer {
   meals() {
     return this.deliveries().map(
        function(delivery) {
-
          return delivery.meal();
        }
     )
