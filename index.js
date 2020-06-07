@@ -45,13 +45,13 @@ class Customer {
       }.bind(this)
     )
   }
-  // meals() {
-  //   return store.meals.filter(
-  //      function(meal) {
-  //        return meal.customerId === this.id;
-  //      }.bind(this);
-  //   )
-  // }
+  meals() {
+    return store.meals.filter(
+       function(meal) {
+         return meal.customerId === this.id;
+       }.bind(this)
+    )
+  }
 }
 
 class Meal {
