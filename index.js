@@ -68,13 +68,13 @@ class Meal {
       }.bind(this)
     )
   }
-  // customers() {
-  //   return store.customers.filter(
-  //     function (customer) {
-  //       return.customer.mealId
-  //     }
-  //   )
-  // }
+  customers() {
+    return this.deliveries().map(
+      function (delivery) {
+        return.delivery.customer();
+      }
+    )
+  }
   // brPrice()
 }
 
