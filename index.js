@@ -52,6 +52,11 @@ class Customer {
        }
     )
   }
+  totalSpent() {
+    this.meals().reduce(function(prev, cur) {
+      return prev + cur.price;
+    },0);
+  }
 }
 
 class Meal {
