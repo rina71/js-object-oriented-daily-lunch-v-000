@@ -32,7 +32,7 @@ class Neighborhood {
         return delivery.meal();
       }
     )
-    return const uniqueSet = new Set(array);
+    return Array.from(new Set(array));
   }
 }
 
