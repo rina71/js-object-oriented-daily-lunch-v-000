@@ -68,14 +68,13 @@ class Meal {
       }.bind(this)
     )
   }
-  customers() {
-    debugger
-    return this.deliveries().map(
-      function (delivery) {
-        return.delivery.customer();
-      }
-    )
-  }
+  // customers() {
+  //   return this.deliveries().map(
+  //     function (delivery) {
+  //       return.delivery.customer();
+  //     }
+  //   )
+  // }
   // brPrice()
 }
 
