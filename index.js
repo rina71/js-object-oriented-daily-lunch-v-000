@@ -27,7 +27,7 @@ class Neighborhood {
     )
   }
   meals() {
-    return this.meals().binnd(this);
+    return this.meals().bind(this);
 
   }
 }
