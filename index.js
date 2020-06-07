@@ -49,7 +49,7 @@ class Customer {
     return this.deliveries().map(
        function(delivery) {
          return delivery.meal().title;
-       }
+       }.bind(this)
     )
   }
 }
