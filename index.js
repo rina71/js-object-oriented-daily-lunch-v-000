@@ -26,9 +26,10 @@ class Neighborhood {
       }.bind(this)
     )
   }
-  // meals() {
-  //
-  // }
+  meals() {
+    return this.meals().binnd(this);
+
+  }
 }
 
 class Customer {
