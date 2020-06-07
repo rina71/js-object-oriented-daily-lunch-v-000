@@ -27,12 +27,12 @@ class Neighborhood {
     )
   }
   meals() {
-    return this.deliveries().filter(
+    const array = this.deliveries().map(
       function(delivery) {
         return delivery.meal();
       }
     )
-
+    return const uniqueSet = new Set(array);
   }
 }
 
