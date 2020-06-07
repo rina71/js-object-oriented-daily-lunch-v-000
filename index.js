@@ -69,12 +69,13 @@ class Meal {
     )
   }
   // customers() {
-  //   return sotre.customers.filter(
+  //   return store.customers.filter(
   //     function (customer) {
   //       return.customer.mealId
   //     }
   //   )
   // }
+  // brPrice()
 }
 
 class Delivery {
