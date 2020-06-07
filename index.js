@@ -42,7 +42,7 @@ class Customer {
     return store.deliveries.filter(
       function(delivery) {
         return delivery.customerId === this.id;
-      }.bind(this);
+      }.bind(this)
     )
   }
   // meals() {
