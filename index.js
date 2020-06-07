@@ -70,8 +70,8 @@ class Meal {
   }
   customers() {
     return this.deliveries().map(
+      debugger
       function (delivery) {
-        debugger
         return.delivery.customer();
       }
     )
