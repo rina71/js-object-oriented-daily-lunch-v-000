@@ -27,9 +27,8 @@ class Neighborhood {
     )
   }
   meals() {
-    return this.deliveries().map(
+    return this.deliveries().filter(
       function(delivery) {
-
         return delivery.meal();
       }
     )
