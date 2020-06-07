@@ -28,6 +28,7 @@ class Neighborhood {
   }
   meals() {
     return this.deliveries().map(
+      debugger
       function(delivery) {
         return delivery.meal();
       }
