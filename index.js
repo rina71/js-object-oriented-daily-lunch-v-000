@@ -48,7 +48,7 @@ class Customer {
   meals() {
     return this.deliveries().map(
        function(delivery) {
-         debugger
+
          return delivery.meal().title;
        }
     )
