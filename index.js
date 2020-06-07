@@ -27,7 +27,11 @@ class Neighborhood {
     )
   }
   meals() {
-    return this.meals().bind(this);
+    return this.deliveries().map(
+      function(delivery) {
+        return delivery.meal();
+      }
+    )
 
   }
 }
