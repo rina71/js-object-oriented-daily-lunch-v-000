@@ -68,6 +68,13 @@ class Meal {
       }.bind(this)
     )
   }
+  // customers() {
+  //   return sotre.customers.filter(
+  //     function (customer) {
+  //       return.customer.mealId
+  //     }
+  //   )
+  // }
 }
 
 class Delivery {
